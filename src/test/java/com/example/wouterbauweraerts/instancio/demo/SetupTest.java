@@ -4,7 +4,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 import org.junit.jupiter.api.Test;
 
-public class SetupTest {
+class SetupTest {
     @Test
     void testRuns() {
         assertThat(true).isTrue();
