@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 
 public record DemoPojo(
         Integer anInt,
-        String sString,
+        String aString,
         LocalDateTime aTimestamp,
         NestedPojo aNestedPojo
 ) {
